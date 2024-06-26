@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display in CSS</title>
+    <style>
+        .text-underlined{
+            padding-left: 5px;
+            text-underline-offset:0.2em;;
+            text-decoration: underline ; text-decoration-color: red;
+        }
+        .text-underlined1{
+            padding-left: 5px;
+            text-underline-position:unset;
+            text-decoration: underline ;
+        }
+        header{
+            
+           padding : 10px;
+            border: 2px solid red;
+            width: 40%;
+        }
+        .hey{
+            display:flex;
+            align-items: center;
+        }
+        /* .box{
+font-style: italic;
+border: 2px solid black;
+margin: 10px;
+width: 70%;
+        } */
+        .flex-parent {
+  display: flex;
+  justify-content:last baseline;
+  align-items: center;
+}
+
+.box {
+  /* background-color: red; */
+  margin: 10px;
+  padding: 10px;
+  height: 100%;
+  width: 30%;
+  border: 2px solid black;
+}
+.box1{
+  /* background-color: red; */
+  margin: 50px;
+  padding: 10px;
+  height: 100px;
+  width: 20%;
+  border: 2px solid black;
+}
+    </style>
+</head>
+<body>
+    <h1 class="text-underlined">I am a XYZ</h1>
+    <h2 class="text-underlined1">this is a short intro about me</h2>
+    <header>
+<div>Lorem ipsum dolor sit amet consectetur adipisicin elit. Vitae, maiores vero?</div>
+
+
+    </header>
+    
+    
+    <!-- <span class="box">Lorem ipsum dolor sit amet consectetur adipis
+    </span>  -->
+    <!-- <div class="hey"> -->
+        <!-- 
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis eos voluptates tenetur. -->
+  <!-- <div class="box">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, veniam!
+  </div>
+  <span class="box">Lorem ipsum dolor sit amet consectetur adipis
+    </span>  -->
+    <div class="flex-parent">
+        <div class="box">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> <a href="http://google.com">Google</a></div>
+      
+        <span class="box1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, repudiandae? <a href="http://allen.com">allen</a></div>
+        </span>
+  
+  
+    <!-- </div> -->
+
+</body>
+</html>
